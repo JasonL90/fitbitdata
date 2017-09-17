@@ -3,9 +3,6 @@ library("ggplot2")
 library(stringr)
 library(xlsx)
 
-cookie <- login(email="calloponia@gmail.com", password="2wjdgnsdlek!") 
-
-
 fit_id <- read.xlsx2("fitbit_lung.xlsx",sheetIndex = 23, header = F)
 
 i <- 14
